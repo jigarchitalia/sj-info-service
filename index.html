@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SJ Info Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      background-image: url('https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg');
+      background-size: cover;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 30px;
+      text-align: center;
+      border-bottom: 2px solid red;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: red;
+    }
+
+    nav {
+      background-color: #111;
+      text-align: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    section {
+      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    section h2 {
+      color: red;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #111;
+      padding: 20px;
+      margin: 20px auto;
+      border: 1px solid red;
+      border-radius: 6px;
+      max-width: 800px;
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid red;
+      background: #000;
+      color: white;
+    }
+
+    button {
+      padding: 12px 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkred;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav a {
+        display: inline-block;
+        margin: 10px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SJ Info Service</h1>
+  <p>Your One-Stop Computer & IT Service Solution</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#ssd">SSD</a>
+  <a href="#computers">Computers</a>
+  <a href="#network">Networking</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <div class="card">
+    <p>We specialize in computer repairs, Windows installations, IT support, and refurbished products like SSDs, laptops, and desktops. Whether you're a student, professional, or business owner – SJ Info Service has your IT needs covered.</p>
+  </div>
+</section>
+
+<section id="ssd">
+  <h2>SSD Products</h2>
+  <div class="card">
+    <img src="https://images.pexels.com/photos/10361323/pexels-photo-10361323.jpeg" alt="SSD">
+    <p>Boost your computer's speed with high-performance SSDs. Available sizes: 120GB, 240GB, 480GB, and 1TB. Improve boot times, reduce loading delays, and get better reliability than traditional HDDs. All products come with warranty and installation support.</p>
+  </div>
+</section>
+
+<section id="computers">
+  <h2>Refurbished Laptops & Desktops</h2>
+  <div class="card">
+    <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg" alt="Laptop">
+    <h3>Refurbished Laptops</h3>
+    <p>Affordable laptops with Core i3/i5/i7 processors, SSDs, and Windows 10 pre-installed. Ideal for study, work-from-home, or daily use.</p>
+  </div>
+  <div class="card">
+    <img src="https://images.pexels.com/photos/245219/pexels-photo-245219.jpeg" alt="Desktop">
+    <h3>Used Desktops</h3>
+    <p>Complete desktop sets with CPU, monitor, keyboard, and mouse. Reliable, powerful, and budget-friendly for home and office users.</p>
+  </div>
+</section>
+
+<section id="network">
+  <h2>Networking & IT Support</h2>
+  <div class="card">
+    <img src="https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg" alt="Networking">
+    <p>Need help setting up your office or home network? We provide LAN, WiFi, router, and switch setup services with professional-grade security and speed. Get internet issues fixed, IP cameras connected, and IT infrastructure maintained with our expert support.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="card">
+    <p><strong>Contact Person:</strong> Jigar</p>
+    <p><strong>Phone:</strong> <a href="tel:+917021963255" style="color:red;">7021963255</a></p>
+    <p><strong>Email:</strong> jigarchitalia007@gmail.com</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 SJ Info Service. All rights reserved.
+</footer>
+
+</body>
+</html>
